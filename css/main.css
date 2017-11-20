@@ -1,0 +1,23 @@
+html, body {
+	height: 100%;
+	width: 100%;
+	position: fixed;
+	background:linear-gradient(310deg, rgba(161,24,230, 0.9), rgba(34,6,114, 1));
+}
+
+h1 {
+	font-family: 'Lobster Two', cursive;
+	font-size: 300px;
+	color: white;
+	text-align: center;
+	-webkit-animation: neonPulse 2s alternate infinite;
+}
+
+@-webkit-keyframes neonPulse {
+  from {
+    text-shadow: 0 0 3px #00E2EB, 0 0 7px #00E2EB, 0 0 20px #00E2EB, 0 0 30px #009ADC, 0 0 40px #009ADC, 0 0 60px #009ADC;
+  }
+  to {
+    text-shadow: 0 0 5px #00E2EB, 0 0 10px #00E2EB, 0 0 30px #00E2EB, 0 0 40px #009ADC, 0 0 55px #009ADC, 0 0 75px #009ADC;
+  }
+}
